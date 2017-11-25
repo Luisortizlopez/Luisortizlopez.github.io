@@ -20,10 +20,20 @@ h2{
 }
 
 #P1{
-  color: #cccccc;
+  color: aqua;
   font-size: 24px;
   font-style: normal;
   text-align: center;
+  text-decoration: underline;
+}
+
+#p2{
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 1px 1px aqua;
+  padding:5px 5px 5px 5px;
+  background-color: #cccccc
+
 }
 
 ol{
@@ -36,7 +46,7 @@ ol{
   border: 3px solid black;
   border-radius: 15px;
   background-color: #cccccc;
-  padding: 10px 10px;
+  padding: 10px 0px 20px 0px;
   height: 10px;
 
 }
@@ -46,11 +56,41 @@ ol{
   border: 3px solid black;
   border-radius: 15px;
   background-color: #cccccc;
-  padding: 10px 10px;
+  padding: 10px  0px 20px 0px;
   height: 10px;
+}
+
+#img{
+  width: 100px;
+      height: 100px;
+      background: #cccccc;
+      position: relative;
+      -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+      animation: mymove 5s infinite;
+  }
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes mymove {
+      from {left: 0px;}
+      to {left: 450px;}
+  }
+
+  @keyframes mymove {
+      from {left: 0px;}
+      to {left: 200px;
+  transform: rotate(90deg); /* Equal to rotateZ(90deg) */
+  margin-bottom: 0px;
+  margin-left: 350px;
+  border:3px solid aqua;
+  border-style: inset;
+}
 
 }
 
-div{
-  padding: 100px 100px;
+#img2{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 350px;
+  border:3px solid aqua;
+
 }
