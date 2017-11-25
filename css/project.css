@@ -1,0 +1,53 @@
+#grad2{
+  height: 1500px;
+  background-color: #cccccc;
+  background-image: linear-gradient(black, yellow);
+  margin: 0px;
+}
+
+h1{
+  color: #cccccc;
+  text-align: center;
+  border: 5px solid #cccccc;
+}
+
+h2{
+  color: #cccccc;
+  text-align: center;
+  margin-top: 80px;
+  border: 5px solid #cccccc;
+  border-radius: 15px;
+}
+
+#P1{
+  color: #cccccc;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+}
+
+ul{
+  height: 80px;
+  margin-top: 10px;
+}
+
+#ulone{
+  color: black;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: #cccccc;
+  padding: 10px 10px;
+  height: 10px;
+  list-style: none;
+}
+
+#ultwo{
+  color: black;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: #cccccc;
+  padding: 10px 10px;
+  height: 10px;
+  list-style: none;
+
+}
